@@ -2,7 +2,7 @@
 # Data Modeling with Postgres
 
 ## **Overview**
-In this project, applied Data Modeling with Postgres and build an ETL pipeline using Python. A startup wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. Currently, they are collecting data in json format and the analytics team is particularly interested in understanding what songs users are listening to.
+In this project, applied Data Modeling with Postgres and build an ETL pipeline using Python. For analyzing the data collected  on songs and user activity from a  new music streaming app. Particularly interested in understanding what songs users are listening to.
 
 
 ## **Song Dataset**
@@ -81,12 +81,3 @@ The ```create_tables.py``` and ```etl.py``` file can also be run independently a
 python create_tables.py 
 python etl.py 
 ```
-
-
- #### Reference: 
-[Psycopg](http://initd.org/psycopg/docs/)
-
-[PostgreSQL Documentation](https://www.postgresql.org/docs/)
-
-[Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
-
